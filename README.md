@@ -50,4 +50,4 @@ Similarly, the user name and key are the same as the above.
   * Reply: 1
   * Example: client send "http://api.iot.fm/control.php?uid=demo&key=c514c91e4ed341f263e458d44b3bb0a7&sensor_name=temperature&cmd=begin". If successful, then return "1".
 
-
+[**More details**](http://blog.smartarduino.com/)
