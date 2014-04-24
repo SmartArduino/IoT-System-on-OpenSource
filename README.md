@@ -28,7 +28,7 @@ In such WSN system, the control protocol is very important. In our protocol degs
       Example: http://api.iot.fm/upload.php?uid=10008&key=123&sensor_name=temperature&data=37&sensor_name=pluse&data=120
    After run the above Example, then return "res=1&desc=ok".
 
-* Using TCP protocol including the following steps
+  * Using TCP protocol including the following steps
     1) Using Socket connection
     2)
 
