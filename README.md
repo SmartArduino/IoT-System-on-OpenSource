@@ -34,15 +34,20 @@ In such WSN system, the control protocol is very important. In our protocol degs
     * 3) Send content: cmd=upload&uid=user ID&key=secret key&sensor_name=sensor1&data=37&sensor_name=sensor2&data=120...\r\n.
 Similarly, the user name and key are the same as the above.
 * **Receive Protocol from Sensor nodes**
- * Using HTTP protocol including the follwoing steps
-   * 1) Using GET method;
-   * 2) Request URL: http://api.iot.fm/get.php; Parameters are the same as the above mentioned.
-   * 3) Reply: sensor nodes would reply the command from client (i.e., IoT system);
-   **Example**: the client sends the command "begin" to a temperature sensor node. http://api.iot.fm/get.php?uid=demo&key=c514c91e4ed341f263e458d44b3bb0a7&sensor_name=temperature. Then, the reply is "begin".
- * Using TCP protocol including the follwoing steps
-   * 1) Using Socket to connect;
-   * 2) IP address: 50.116.16.236, port number: 9501
-   * 3) Send content: cmd=upload&uid=user ID&key=secret key&sensor_name=sensor1&data=37&sensor_name=sensor2&data=120...\r\n.
-
+  * Using HTTP protocol including the follwoing steps
+    * 1) Using GET method;
+    * 2) Request URL: http://api.iot.fm/get.php; Parameters are the same as the above mentioned.
+    * 3) Reply: sensor nodes would reply the command from client (i.e., IoT system);
+    **Example**: the client sends the command "begin" to a temperature sensor node. http://api.iot.fm/get.php?uid=demo&key=c514c91e4ed341f263e458d44b3bb0a7&sensor_name=temperature. Then, the reply is "begin".
+  * Using TCP protocol including the follwoing steps
+    * 1) Using Socket to connect;
+    * 2) IP address: 50.116.16.236, port number: 9501
+    * 3) Send content: cmd=upload&uid=user ID&key=secret key&sensor_name=sensor1&data=37&sensor_name=sensor2&data=120...\r\n.
+* **Client sends control command to sensor nodes**
+  * Transmission protocol is HTTP, and use GET method;
+  * Request URL: http://api.iot.fm/control.php;
+  * Parameters: are the same as the aboved mentioned;
+  * Reply: 1
+  * Example: client send "http://api.iot.fm/control.php?uid=demo&key=c514c91e4ed341f263e458d44b3bb0a7&sensor_name=temperature&cmd=begin". If successful, then return "1".
 
 
