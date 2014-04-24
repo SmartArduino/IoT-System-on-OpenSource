@@ -1,5 +1,5 @@
-OpenSource-Hardware
+How to Use IoT System
+                ------Based on the OpenSource Hardware
 ===================
 
-  
-  SmartArduino is specializing in the open source hardware, like Arduino compatible boards, Raspberry pi, Beaglebone, Robotics, and Aircraft.  
+IoT (Internet of Things) system is one of Wireless Sensor Sytems (WSN). Anyone can conveniently buit up his own IoT system based on such WSN system by the following Steps. 
