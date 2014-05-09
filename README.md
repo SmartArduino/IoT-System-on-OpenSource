@@ -1,4 +1,4 @@
-#How to Use IoT System--Based on the OpenSource Hardware
+#How to Use IoT System--Based on the Open Source Hardware
 ===================
 
 IoT (Internet of Things) system is one of Wireless Sensor Sytems (WSN). Based on the open source hardware, like Arduino, Raspberry pi, Beaglebone, and so on, anyone can conveniently buit up his own IoT system by using such WSN platform, and aslo would like to present [some demos](http://blog.smartarduino.com/) based on this platform
