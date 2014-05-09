@@ -17,7 +17,7 @@ Step Four: Data Dsiplay. In this step, you can use simple clicks to see the resu
 
 In such WSN system, the control protocol is very important. In our protocol degsin, we have designed two types of control protocols presented by the followings.
 
-* **Upload Protocol to Sever**
+* **Upload Protocol to IoT.fm**
   * Using HTTP protocol including the following steps
     * 1) Using GET method;
     * 2) Request URL: http://api.iot.fm/upload.php,
@@ -33,7 +33,7 @@ In such WSN system, the control protocol is very important. In our protocol degs
     * 2) IP address: 50.116.16.236, port number: 9501
     * 3) Send content: cmd=upload&uid=user ID&key=secret key&sensor_name=sensor1&data=37&sensor_name=sensor2&data=120...\r\n.
 Similarly, the user name and key are the same as the above.
-* **Receive Protocol from Sensor nodes**
+* **Receive Protocol from IoT.fm**
   * Using HTTP protocol including the follwoing steps
     * 1) Using GET method;
     * 2) Request URL: http://api.iot.fm/get.php; Parameters are the same as the above mentioned.
