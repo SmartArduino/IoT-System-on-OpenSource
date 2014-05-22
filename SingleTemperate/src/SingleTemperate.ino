@@ -29,4 +29,8 @@ void upload_sensor(float vol)
 
 
 
+<<<<<<< HEAD
 
+=======
+
+>>>>>>> 3b6c3c39eff99f96c43316e3023bf9cff257050d
